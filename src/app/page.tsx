@@ -24,7 +24,7 @@ export default function HomePage() {
           Learn More →
         </Link>
       </Block>
-      <Block heading={"Audapolis"} image={<Image className="shadow-[0_0_30px_-3px_rgba(0,0,0,0.3)] max-w-[600px]" src={AudapolisScreenshotSrc} alt={"A screenshot of audapolis."} />} imageOnRight>
+      <Block heading={"Audapolis"} image={<Image className="shadow-[0_0_30px_-3px_rgba(0,0,0,0.3)] w-full max-w-[600px]" src={AudapolisScreenshotSrc} alt={"A screenshot of audapolis."} />} imageOnRight>
         <p className="text-lg leading-6 mb-6 text-left">Audapolis is an open source tool for cutting audio and video with support of a transcript of what was said.</p>
         <p className="text-lg leading-6 mb-6 text-left">It gives you a wordprocessor-like experience for media editing.</p>
         <Link
